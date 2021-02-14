@@ -7,14 +7,24 @@ public class Main {
 
     public static void main(String[] args) {
 
-        boolean confirmacion =true;
+        //INICIA EL PRIMER EJERCICIO
+/*
+        Numero_Mayor M_Q;
+        M_Q = new Numero_Mayor(20,10);
+        M_Q.Mayor();
 
+*/
+
+        //INICIA EL SEGUNDO EJERCICIO
+/*
+
+        boolean confirmacion = true;
         while (confirmacion){
             Scanner pregunta = new Scanner(System.in);
             System.out.println("'\n Digite si para comparar dos numeros o no para salir del programa:  ");
             String respuesta = pregunta.nextLine();
 
-            if(respuesta.equals("si")){
+            if(respuesta.equals("si") || respuesta.equals("SI")){
                 Scanner entrada = new Scanner(System.in);
                 double primero;
                 System.out.println("Digite el primer numero a comparar: ");
@@ -25,17 +35,17 @@ public class Main {
                 System.out.println("Digite el segundo numero a comparar: ");
                 segundo = entrada2.nextDouble();
 
-                Numero_Mayor M_Q;
-                M_Q = new Numero_Mayor(primero,segundo);
-                M_Q.Mayor();
+                Numero_Mayor_Menor_Igual MMI;
+                MMI = new Numero_Mayor_Menor_Igual(primero,segundo);
+                MMI.Mayor();
             }
-            else if(respuesta.equals("no")){
-                confirmacion = false;
-            }
-            else{
-
-            }
+            else if(respuesta.equals("no") || respuesta.equals("NO")){ confirmacion = false; }
         }
+*/
+
+        //INICIA EL TERCER EJERCICIO
+
+
 
     }
 }

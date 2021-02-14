@@ -14,7 +14,7 @@ public class Numero_Mayor {
             System.out.println("El numero " + x + " es " + "mayor que " + y + ".");
         }
         else {
-            System.out.println("El numero " + x + " es " + "menor que " + y + ".");
+            System.out.println("El numero " + y + " es " + "mayor que " + x + ".");
         }
     }
 }
