@@ -45,6 +45,18 @@ public class Main {
 
         //INICIA EL TERCER EJERCICIO
 
+/*
+        Scanner radio_consola = new Scanner(System.in);
+        double radio;
+        System.out.println("Digite el radio del circulo: ");
+        radio = radio_consola.nextDouble();
+
+        Area_Circulo AC;
+        AC = new Area_Circulo(radio);
+        AC.Area();
+*/
+
+        //INICIA EL CUARTO EJERCICIO
 
 
     }
