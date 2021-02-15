@@ -58,6 +58,12 @@ public class Main {
 
         //INICIA EL CUARTO EJERCICIO
 
+        Scanner precio_consola = new Scanner(System.in);
+        double precio;
+        System.out.println("Digite el precio del producto: ");
+        precio = precio_consola.nextDouble();
 
+        Sumar_Iva pf = new Sumar_Iva(precio);
+        pf.Precio_Final();
     }
 }
